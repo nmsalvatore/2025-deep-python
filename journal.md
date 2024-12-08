@@ -1,14 +1,13 @@
 # 2025 Python & HTMX Learning Journal
 
-> [!IMPORTANT]
-> ## Rules for 2025
-> 1. Write Python every day
-> 2. Journal after playing with any new concept
-> 3. At the end of each chapter, write a full blog post explaining the concepts covered in the chapter as if you were teaching them to a child
-> 4. Never commit any code without being able to fully explain what it's doing
-> 5. Every month, reread and work through one previous chapter from the year
-> 6. Detours must remain detours and must not take more than 8 hours of your time a week
-> 7. Don't stray from this plan.
+## Rules for 2025
+1. Write Python every day
+2. Journal after playing with any new concept
+3. At the end of each chapter, write a full blog post explaining the concepts covered in the chapter as if you were teaching them to a child
+4. Never commit any code without being able to fully explain what it's doing
+5. Every month, reread and work through one previous chapter from the year
+6. Detours must remain detours and must not take more than 8 hours of your time a week
+7. Don't stray from this plan.
 
 ## Journal
 
