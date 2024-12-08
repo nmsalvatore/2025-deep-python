@@ -10,22 +10,6 @@
 > 6. Detours must remain detours and must not take more than 8 hours of your time a week
 > 7. Don't stray from this plan.
 
-
-## Journal Template
-
-### December 7, 2024
-
-**Topic:**
-
-**Resource:**
-
-**What I learned:**
-
-**Experiments:**
-
-**Curiosities evoked:**
-
-
 ## Journal
 
 ### December 7, 2024
