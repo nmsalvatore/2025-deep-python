@@ -11,38 +11,57 @@
 > 7. Don't stray from this plan.
 
 
-## December 7, 2024
+## Journal Template
 
-Topic: `origin` in Git
-Resource: [Pro Git - 2.5 - Working with Remotes](https://git-scm.com/book/ms/v2/Git-Basics-Working-with-Remotes)
+### December 7, 2024
 
-What I learned:
+**Topic:**
+
+**Resource:**
+
+**What I learned:**
+
+**Experiments:**
+
+**Curiosities evoked:**
+
+
+## Journal
+
+### December 7, 2024
+
+**Topic:** `origin` in Git
+
+**Resource:** [Pro Git - 2.5 - Working with Remotes](https://git-scm.com/book/ms/v2/Git-Basics-Working-with-Remotes)
+
+**What I learned:**
 - `origin` is just a default term to describe a remote repository's URL
 - When using `git clone <url>`, a remote will be created with an `origin` representing the given URL
 - When initializing a repo locally with `git init`, you will typically add a remote URL where the local code will be pushed. That remote URL is conventially called `origin` though it could be called anything.
 
-Experiments:
+**Experiments:**
 - I didn't do anything 😬
 
-Curiosities evoked:
+**Curiosities evoked:**
 - What is the utility of using multiple remotes?
 - Why is `git push -u origin main` necessary after adding a remote and then `git push` works as a standalone therafter?
 
 
-## December 7, 2024
+### December 7, 2024
 
-Topic: Tracking relationships between local and remote branches
-Resource: [Pro Git - 2.5 - Working with Remotes](https://git-scm.com/book/ms/v2/Git-Basics-Working-with-Remotes)
+**Topic:** Tracking relationships between local and remote branches
 
-What I learned:
+**Resource:** [Pro Git - 2.5 - Working with Remotes](https://git-scm.com/book/ms/v2/Git-Basics-Working-with-Remotes)
+
+**What I learned:**
 - `-u` is used to create a tracking relationship between local and remote branches
 - When a remote has been added, but the code in the local branch hasn't been pushed to the remote repo, using something like `git push -u origin main` will create a tracking relationship between the local `main` branch and the remote `origin` repo, creating a remote `main` branch at `origin` and pushing the local code to that branch. Thereafter, Git will already be tracking the relationship between the two branches so when you simply `git push`, Git will push the local code to the related remote branch.
 - `--set-upstream` is the longhand form of `-u`
 - Without `-u` or `--set-upstream`, no tracking relationship is established so you would need to explicitly push using something like `git push origin main` every time instead of just `git push`
 
-Experiments:
+**Experiments:**
 - Created a new branch `formatting_rules` and pushed it to `origin` with `git push -u origin formatting_rules`
 - Tried using `git push -u origin rules_fix` to see if I could change the name of the upstream linked repo, but it seems that it isn't allowed in this format, but can be done with `git push -u origin <local_branch_name>:<remote_branch_name>`
 
-Curiosities evoked:
+**Curiosities evoked:**
 - How do I delete the remote branch after merging and/or deleting the local one?
